@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>com.xawe.micro.estabelecimentocomercial</artifactId>
+	<artifactId>com.xawe.micro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>com.xawe.micro.estabelecimentocomercial</name>
-	<description>Estabelecimento Comercial test</description>
+	<name>com.xawe.micro</name>
+	<description>Micro Lab test</description>
 
 	<properties>
 		<java.version>1.8</java.version>
