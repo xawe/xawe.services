@@ -8,7 +8,7 @@
 		<version>2.2.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.xawe.services</groupId>
 	<artifactId>com.xawe.micro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<docker.registry>xawe.microservices</docker.registry>
 	</properties>
 
 	<dependencies>
