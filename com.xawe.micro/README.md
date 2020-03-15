@@ -15,7 +15,11 @@ To start the built container
 	docker run -it -p 9000:8000 --name docker_boot_app -d javatechy/dockboot	
 	
 OBS:: Docker files not fully implemented.
-	References 
+
+#References 
+	
 	https://github.com/javatechy/docker_boot/blob/master/src/main/docker/Dockerfile
+	
 	https://dzone.com/articles/dockerizing-spring-boot-application-1
+	
 	https://www.baeldung.com/dockerizing-spring-boot-application
