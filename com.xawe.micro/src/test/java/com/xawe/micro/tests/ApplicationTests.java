@@ -1,4 +1,4 @@
-package com.xawe.micro.estabelecimentocomercial;
+package com.xawe.micro.tests;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
