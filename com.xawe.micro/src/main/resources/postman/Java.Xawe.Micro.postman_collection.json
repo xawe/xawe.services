@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "277fccef-3426-4a75-b8c0-1d369b0d69a7",
+		"name": "Java.Xawe.Micro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EC - GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/EC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"EC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EC - POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"ecName\": \"Teste\",\n        \"id\": \"0\",\n        \"isPF\": \"true\",\n        \"isPJ\": \"false\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/EC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"EC"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
