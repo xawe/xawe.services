@@ -12,6 +12,10 @@ public class EcNumberImpl implements EcNumber{
 		Random rand = new Random();		
 		String r ;
 		r =  String.valueOf(rand.nextInt(99999999));		
+		if(r.length()<8)
+		{
+			r = this.CreateEcNumber();
+		}
 		return r;
 	}
 }
